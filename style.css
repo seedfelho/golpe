@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #FDE100;
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    height: 10vh;
+    width: 100%;
+}
+
+.nome{
+    height: 10vh;
+}
+.logo{
+    height: 10vh;
+}
