@@ -54,7 +54,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     height: 150px;
-    width: 45vw;
+    width: 40vw;
     gap: 45px;
     margin-top: 35px;
 }
